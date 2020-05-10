@@ -1,0 +1,120 @@
+
+ 
+body{
+    font-family:"Raleway";
+}
+
+#upr-body{
+    background:linear-gradient(45deg , rgba(44, 44, 170, 0.438), rgba(31, 115, 184, 0.589));
+    border-radius:10px;
+    height:30vh;
+
+
+
+}
+#upr-body>p{
+    position:relative ;
+    display:inline;
+    font-size:70px;
+    margin-left:20vw;
+    bottom:40px;
+    
+    
+
+}
+
+img{
+    margin: 2vh 5vw 2vh 5vw ;
+    width:10vw;
+    height : 10vw;
+    border-radius:50%;
+    border-color:rgba(28, 170, 175, 0.767);
+    border-style: solid;
+    border-width:1px;
+ 
+    box-shadow: 0px 0px 5px 10px rgba(17, 196, 202, 0.164) ;
+}
+
+
+
+
+
+
+
+
+ /* ------------------------------------animations ---------------------------------- */
+
+
+
+
+@keyframes sleep-to {
+    
+   0% {transform: rotate(0);
+}
+25% {
+    transform: rotate(20deg);
+}
+50% {
+    transform: rotate(0deg);
+}
+75% {
+    transform: rotate(-20deg);
+}
+100% {
+    transform: rotate(0deg)
+}
+} 
+@keyframes sleep-to {
+    
+   0% {transform: rotate(0);
+}
+25% {
+    transform: rotate(20deg);
+}
+50% {
+    transform: rotate(0deg);
+}
+75% {
+    transform: rotate(-20deg);
+}
+100% {
+    transform: rotate(0deg)
+}
+}
+ 
+@keyframes sleep-to {
+    
+   0% {transform: rotate(0);
+}
+25% {
+    transform: rotate(20deg);
+}
+50% {
+    transform: rotate(0deg);
+}
+75% {
+    transform: rotate(-20deg);
+}
+100% {
+    transform: rotate(0deg)
+}
+}
+ 
+@keyframes baby-img {
+    
+    0% {transform: rotate(0);
+ }
+ 25% {
+     transform: rotate(2deg);
+ }
+ 50% {
+     transform: rotate(0deg);
+ }
+ 75% {
+     transform: rotate(-2deg);
+ }
+ 100% {
+     transform: rotate(0deg)
+ }
+ } 
+ 
