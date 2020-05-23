@@ -1,101 +1,74 @@
-body{
-    font-family:"Raleway";
+body {
+  font-family: "Raleway";
 }
-#upr-body{
-    background:linear-gradient(45deg , rgba(44, 44, 170, 0.438), rgba(31, 115, 184, 0.589));
-    border-radius:10px;
-    height:90vh;
+#upr-body {
+  background: #524d52;
+  border-radius: 10px;
+  height: 80vh;
+  box-shadow: 0px 0px 4px 10px gray;
 }
-#cat1{
-    position:absolute ;
-    margin-left: 5px;
-    display: inline;
-    color:white ;
-    text-decoration:None;
-    font-size:  3em;
-    bottom:24px; 
-
-
+#cat {
+  position: absolute;
+  margin-left: 350px;
+  display: inline;
+  color: white;
+  text-decoration: None;
+  font-size: 3em;
 }
-#cat2{
-    position:absolute ;
-    margin-left: 165px;
-    display: inline;
-    color:white ;
-    text-decoration:None;
-    font-size:  3em;
-    bottom: 28px;
-
+#buttons > p {
+  font-size: 40px;
+  margin-left: 110px;
 }
-#cat{
-    
-    position:absolute ;
-    margin-left: 350px;
-    display: inline;
-    color:white ;
-    text-decoration:None;
-    font-size:  3em;;
-
-}   
-#vis122{
-    position:absolute;
-    bottom:50px;
-    display:inline;
-    font-size:40px;
-    margin-left:30vw;
+#upr-body > p {
+  font-size: 50px;
+  margin-left: 350px;
+  margin-top: auto;
 }
-#vis22{
-    position:absolute;
-    bottom:450px;
-    display:inline;
-    font-size:70px;
-    margin-left:300px;
+#buttons {
+  position: relative;
+  margin-left: 360px;
+  margin-top: 50px;
 }
-#buttons{
-    position:absolute ;
-    margin-left: 400px;
-    margin-bottom: 10vw;
+#buttons > a {
+  color: rgb(203, 189, 226);
+  font-family: "Raleway";
+  position: relative;
+  margin-left: 70px;
+  text-decoration: None;
+  font-size: 20px;
 }
-#buttons>a{
-    color:black ;
-    font-family:"Raleway";
-    margin:15px;
-    text-decoration:None;
-    font-size:20px;
+#buttons > a:hover {
+  color: white;
 }
-#buttons>a:hover{
-    background-color: gainsboro;
-    color:black;
-}
-img{
-    margin: 10vw 40vw 10vh 40vw ;
-    width:10vw;
-    height : 10vw;
-    border-radius:50%;
-    border-color:rgba(28, 170, 175, 0.767);
-    border-style: solid;
-    border-width:1px;
-    box-shadow: 0px 0px 5px 10px rgba(17, 196, 202, 0.164) ;
-    animation-name: sleep-to;
-    animation-iteration-count:150;
-    animation-duration: 0.01s;
+img {
+  position: relative;
+  margin-left: 600px;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  border-color: rgb(203, 189, 226);
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0px 0px 5px 10px rgba(203, 189, 226, 0.164);
+  animation-name: sleep-to;
+  animation-iteration-count: 150;
+  animation-duration: 0.01s;
 }
 
 @keyframes sleep-to {
-    
-    0% {transform: rotate(0deg);
- }
- 25% {
-     transform: rotate(3deg);
- }
- 50% {
-     transform: rotate(0deg);
- }
- 75% {
-     transform: rotate(-3deg);
- }
- 100% {
-     transform: rotate(0deg)
- }
- } 
-  
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
