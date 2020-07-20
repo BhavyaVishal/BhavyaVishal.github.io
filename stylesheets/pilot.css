@@ -1,74 +1,56 @@
 body {
-  font-family: "Raleway";
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  display: flexbox;
 }
-#upr-body {
-  background: #524d52;
-  border-radius: 10px;
-  height: 80vh;
-  box-shadow: 0px 0px 4px 10px gray;
+.back {
+  width: 100vw;
+  height: 50vh;
 }
-#cat {
+.back .nav {
   position: absolute;
-  margin-left: 350px;
+  height: 40px;
+}
+.back .nav ul {
+  height: 40px;
+  width: 100%;
+  margin-left: 760px;
+}
+.back .nav ul li {
+  z-index: 12;
   display: inline;
-  color: white;
-  text-decoration: None;
-  font-size: 3em;
+  padding: 30px;
 }
-#buttons > p {
+.back .nav ul li a {
+  z-index: 12;
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: "Mulish", sans-serif;
+}
+.back .nav ul li a:hover {
+  color: rgb(247, 193, 193);
+}
+.back .nav .face {
+  margin-top: 30px;
+  margin-left: 780px;
+  height: 700px;
+  width: 600px;
+}
+.back .bha {
+  margin-top: 5px;
+  position: absolute;
+  margin-left: 60px;
   font-size: 40px;
-  margin-left: 110px;
+  color: rgb(92, 146, 126);
+  font-family: "Mulish", sans-serif;
+  -ms-text-kashida-space: 3;
 }
-#upr-body > p {
-  font-size: 50px;
-  margin-left: 350px;
-  margin-top: auto;
-}
-#buttons {
-  position: relative;
-  margin-left: 360px;
-  margin-top: 50px;
-}
-#buttons > a {
-  color: rgb(203, 189, 226);
-  font-family: "Raleway";
-  position: relative;
-  margin-left: 70px;
-  text-decoration: None;
-  font-size: 20px;
-}
-#buttons > a:hover {
-  color: white;
-}
-img {
-  position: relative;
-  margin-left: 600px;
-  width: 10vw;
-  height: 10vw;
-  border-radius: 50%;
-  border-color: rgb(203, 189, 226);
-  border-style: solid;
-  border-width: 1px;
-  box-shadow: 0px 0px 5px 10px rgba(203, 189, 226, 0.164);
-  animation-name: sleep-to;
-  animation-iteration-count: 150;
-  animation-duration: 0.01s;
-}
-
-@keyframes sleep-to {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(3deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  75% {
-    transform: rotate(-3deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
+.back .para {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 200px;
+  font-size: 40px;
+  font-family: "Mulish", sans-serif;
 }
