@@ -1,56 +1,103 @@
-body {
+* {
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
-  display: flexbox;
 }
-.back {
-  width: 100vw;
-  height: 50vh;
+body {
+  font-family: poppins;
 }
-.back .nav {
-  position: absolute;
-  height: 40px;
-}
-.back .nav ul {
-  height: 40px;
-  width: 100%;
-  margin-left: 760px;
-}
-.back .nav ul li {
-  z-index: 12;
-  display: inline;
+header {
+  display: flex;
+  justify-content: space-between;
   padding: 30px;
 }
-.back .nav ul li a {
-  z-index: 12;
-  color: white;
+h2 {
+  font-size: 30px;
+  font-family: "syne";
+  color: rgb(14, 28, 37);
+}
+ul,
+nav {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  padding-right: 40px;
+}
+nav li a {
   text-decoration: none;
+  font-family: "syne";
   font-size: 23px;
-  font-family: "Mulish", sans-serif;
+  color: rgb(46, 53, 59);
 }
-.back .nav ul li a:hover {
-  color: rgb(247, 193, 193);
-}
-.back .nav .face {
-  margin-top: 30px;
-  margin-left: 780px;
-  height: 700px;
-  width: 600px;
-}
-.back .bha {
-  margin-top: 5px;
-  position: absolute;
-  margin-left: 60px;
-  font-size: 40px;
-  color: rgb(92, 146, 126);
-  font-family: "Mulish", sans-serif;
-  -ms-text-kashida-space: 3;
-}
-.back .para {
-  position: absolute;
-  margin-top: 220px;
+.down-to-nav {
+  margin-top: 100px;
   margin-left: 200px;
-  font-size: 40px;
-  font-family: "Mulish", sans-serif;
+}
+.down-to-nav h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+}
+.down-to-nav p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  line-height: 29px;
+  font-family: "syne";
+}
+.down-to-nav .img {
+  height: 400px;
+  position: absolute;
+  top: 150px;
+  left: 65vw;
+}
+.up-down {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 100px;
+  animation: up-down 2s infinite linear;
+}
+@keyframes up-down {
+  0% {
+    margin-top: 90px;
+  }
+  50% {
+    margin-top: 100px;
+  }
+  100% {
+    margin-top: 90px;
+  }
+}
+#about {
+  width: 90vw;
+}
+.h {
+  font-size: 35px;
+  font-family: "Rowdies", cursive;
+  margin-top: 100px;
+  margin-left: 600px;
+}
+.h1 {
+  font-size: 35px;
+  font-family: "Rowdies", cursive;
+  margin-top: 100px;
+  margin-left: 450px;
+}
+.h3 {
+  margin-left: 800px;
+  margin-top: auto;
+  font-family: "caveat", cursive;
+  font-size: 20px;
+}
+.h2 {
+  margin-top: 60px;
+  font-size: 25px;
+  margin-left: 230px;
+  font-family: "pacifico";
+}
+.p {
+  font-size: 18px;
+  margin-left: 330px;
+  font-family: "bellota";
+  width: 60vw;
 }
