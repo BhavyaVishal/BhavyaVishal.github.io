@@ -54,6 +54,7 @@ nav li a:hover {
   left: 65vw;
 }
 .up-down {
+  position: absolute;
   margin-left: 610px;
   font-size: 25px;
   margin-top: 190px;
@@ -72,6 +73,7 @@ nav li a:hover {
 }
 #about {
   width: 90vw;
+  margin-top: 250px;
 }
 .h {
   font-size: 35px;
@@ -115,7 +117,9 @@ nav li a:hover {
   h2 {
     color: rgba(57, 155, 155, 0.849);
   }
-
+  #about {
+    margin-top: 2px;
+  }
   .down-to-nav .img {
     display: none;
   }
