@@ -29,6 +29,9 @@ nav li a {
   font-size: 23px;
   color: rgb(46, 53, 59);
 }
+nav li a:hover {
+  color: rgb(180, 207, 207);
+}
 .down-to-nav {
   margin-top: 100px;
   margin-left: 200px;
@@ -51,10 +54,9 @@ nav li a {
   left: 65vw;
 }
 .up-down {
-  display: flex;
-  justify-content: center;
+  margin-left: 610px;
   font-size: 25px;
-  margin-top: 180px;
+  margin-top: 190px;
   animation: up-down 2s infinite linear;
 }
 @keyframes up-down {
@@ -81,7 +83,7 @@ nav li a {
   font-size: 35px;
   font-family: "Rowdies", cursive;
   margin-top: 100px;
-  margin-left: 450px;
+  margin-left: 500px;
 }
 .h3 {
   margin-left: 800px;
@@ -111,7 +113,7 @@ nav li a {
     padding-top: 15px;
   }
   h2 {
-    color: rgba(73, 146, 146, 0.849);
+    color: rgba(57, 155, 155, 0.849);
   }
 
   .down-to-nav .img {
@@ -154,7 +156,7 @@ nav li a {
   width: 50px;
   height: 50px;
   margin-left: 200px;
-  margin-top: 50px;
+  margin-top: 60px;
   display: block;
 }
 .l {
@@ -175,7 +177,7 @@ nav li a {
 
   position: absolute;
   margin-left: 800px;
-  margin-top: 170px;
+  margin-top: 190px;
   border-radius: 30%;
 }
 @media only screen and (max-width: 700px) {
@@ -194,5 +196,34 @@ nav li a {
   }
   .tap {
     display: none;
+  }
+}
+.projects {
+  display: flex;
+}
+.pro {
+  width: 60vw;
+  margin-left: 260px;
+  margin-top: 140px;
+}
+.pot {
+  font-family: "syne";
+  margin-left: 260px;
+
+  margin-top: 30px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.pot a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 700px) {
+  .pro {
+    margin-left: 30px;
+    margin-top: 70px;
+    width: 80vw;
+  }
+  .pot {
+    margin-left: 10px;
   }
 }
