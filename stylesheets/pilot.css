@@ -231,3 +231,39 @@ nav li a:hover {
     margin-left: 10px;
   }
 }
+#other {
+  margin-top: 130px;
+  display: flex;
+  background-color: rgb(22, 32, 34);
+  height: 70vh;
+}
+
+footer h2 {
+  padding: 10px 700px 0px 20px;
+  font-family: "syne";
+  color: rgb(38, 109, 114);
+}
+footer li {
+  list-style: none;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+footer li a {
+  text-decoration: none;
+  font-family: "syne";
+  font-size: 23px;
+  color: rgb(60, 74, 88);
+}
+footer p {
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: "syne";
+  margin-left: 100px;
+}
+.my {
+  width: 12vw;
+  height: 25vh;
+  border-radius: 30%;
+  margin-top: 40px;
+  margin-left: 30px;
+}
