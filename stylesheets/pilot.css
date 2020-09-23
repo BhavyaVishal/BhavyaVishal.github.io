@@ -234,36 +234,66 @@ nav li a:hover {
 #other {
   margin-top: 130px;
   display: flex;
-  background-color: rgb(22, 32, 34);
+  background-color: rgb(40, 59, 63);
   height: 70vh;
 }
 
 footer h2 {
-  padding: 10px 700px 0px 20px;
+  padding: 10px 600px 0px 150px;
   font-family: "syne";
-  color: rgb(38, 109, 114);
+  color: rgb(37, 137, 145);
 }
-footer li {
+footer h3 {
+  margin-top: 20px;
+  margin-left: 600px;
+  color: rgb(37, 137, 145);
+  font-family: "syne";
+}
+footer .lv {
   list-style: none;
   padding-right: 40px;
   padding-top: 40px;
 }
-footer li a {
+footer .lv a {
   text-decoration: none;
   font-family: "syne";
   font-size: 23px;
-  color: rgb(60, 74, 88);
+  color: rgb(113, 116, 106);
 }
 footer p {
   margin-top: 30px;
   font-size: 20px;
+  color: rgb(179, 182, 167);
   font-family: "syne";
-  margin-left: 100px;
+  margin-left: 200px;
 }
 .my {
   width: 12vw;
   height: 25vh;
   border-radius: 30%;
   margin-top: 40px;
-  margin-left: 30px;
+  margin-left: 100px;
+}
+.other-link {
+  position: absolute;
+  margin-top: 290px;
+  left: 985px;
+}
+.l {
+  padding-top: 40px;
+  list-style: none;
+  padding-right: 40px;
+}
+.l a {
+  text-decoration: none;
+  font-family: "syne";
+  font-size: 23px;
+  color: rgb(113, 116, 106);
+}
+.c {
+  padding-top: 40px;
+}
+.l a img {
+  width: 50px;
+  height: 40px;
 }
