@@ -3,7 +3,7 @@
  </head>
  <body>
  <header>
-  <h2><a  href="https://bhavyavishal.github.io" >BhavyaVishal</a></h2>
+  <h2 style="color:black"><a  href="https://bhavyavishal.github.io" >BhavyaVishal</a></h2>
       <nav>
         <li><a href="https://bhavyavishal.github.io/#about">About</a></li>
         <li><a href="https://bhavyavishal.github.io/#skills">Skills</a></li>
